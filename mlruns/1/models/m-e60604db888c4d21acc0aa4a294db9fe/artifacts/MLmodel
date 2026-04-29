@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/visha/OneDrive/Desktop/youtube mlops/MLflow_with-experiments/mlruns/1/models/m-e60604db888c4d21acc0aa4a294db9fe/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.9
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.11.1
+model_id: m-e60604db888c4d21acc0aa4a294db9fe
+model_size_bytes: 11596
+model_uuid: m-e60604db888c4d21acc0aa4a294db9fe
+prompts: null
+run_id: e063b766a8e9403a927cc30dd7e06b88
+utc_time_created: '2026-04-29 07:27:43.897838'
