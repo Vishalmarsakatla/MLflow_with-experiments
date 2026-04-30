@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.datasets import load_breast_cancer
 import pandas as pd
 import mlflow
-mlflow.set_tracking_uri("http://127.0.0.1:5000")
+
 # Load the Breast Cancer dataset
 data = load_breast_cancer()
 X = pd.DataFrame(data.data, columns=data.feature_names)
